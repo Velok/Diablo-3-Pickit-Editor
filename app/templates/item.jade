@@ -1,0 +1,23 @@
+.item-row
+  button.add-item-btn.btn.btn-success.btn-circle
+    i.glyphicon.glyphicon-plus-sign
+  button.delete-item-btn.btn.btn-danger.btn-circle
+    i.glyphicon.glyphicon-remove-sign
+  select(data-placeholder="choose item..").item-name
+    option 
+    option no selection
+    for item in items
+      option= item
+  select(data-placeholder="choose some stats..", multiple).item-stats !{statoptions}
+  strong at least:
+  select.item-stat-options
+    option 0
+    option 1
+    option 2
+    option 3
+    option 4
+  strong Cube:
+  button(data-cube="#{cube}", class="#{cubebtn}").item-cube-chk.btn.btn-circle
+    i(class="glyphicon #{glyph}")
+  strong Comment:
+  input.item-comment(type="text", class="#{iscomment}")

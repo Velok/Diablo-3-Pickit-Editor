@@ -1,0 +1,50 @@
+;|||| MISC
+
+; keep uber keys and organs
+uber_keys = quality+1
+uber_organs = quality+1
+uber_others = quality+1
+; keep all plan and gem design
+plans = quality+1
+; dye
+dye = quality+1
+; Common Debris, Exquisite Essence, Iridescent Tear, Fiery Brimstone, Demonic Essence
+craftmats_t4 = quality+1
+; Reusable Parts, Arcane Dust, Veiled Crystal, Forgotten Soul, Death's Breath, and all legendary crafting materials like Frozen Blood, Captured Nightmare, etc
+craftmats_x1 = quality+1
+; Bounty-specific crafting materials
+craftmats_bounty = quality+1
+; Gem Essences
+craftmats_gem = quality+1
+; Scholarly Writings
+crafttomes_x1 = quality+1
+; regular gems (8=flawless square, 15=marquise, 16=imperial)
+gems = gem_quality+15
+; legendary gems
+gems_unique = quality+1
+; Rift Keystone Fragment, Greater Rift Keystone
+riftkeystone = quality+1
+; Ramaladni's Gift
+consumable = quality+1
+; Horadric Cache, Greater Horadric Cache, Bonus Cache, World Cache
+horadriccache = quality+1
+bonuscache = quality+1
+worldcache = quality+1
+; Bottomless potions
+potions = quality+9
+; Scroll of Mysteries
+bountyscroll = quality+1
+; promo stuff like Angelic Wings, Blade Wings
+promo = quality+1
+; pony-materials
+pony = quality+1
+
+
+;|||| FOLLOWER
+
+follower = name=Smoking Thurible
+follower = name=Skeleton Key
+follower = name=Enchanting Favor
+
+
+;|||| ITEMS

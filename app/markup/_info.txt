@@ -1,0 +1,2 @@
+Markup written in Jade belongs here. Static html files belongs to the
+static folder.

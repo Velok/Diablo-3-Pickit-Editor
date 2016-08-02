@@ -1,0 +1,2 @@
+Put here backend node server and stuff
+This is a static folder and won't be processed.

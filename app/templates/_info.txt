@@ -1,0 +1,1 @@
+Put here templates which will be converted to a concatenated js file.

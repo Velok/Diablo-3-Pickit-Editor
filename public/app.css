@@ -1,0 +1,137 @@
+body {
+  min-width: 1000px;
+  padding-left: 40px;
+  background-color: rgb(160, 160, 160)
+}
+
+main, footer {
+  margin-top: 20px;
+  position: relative;
+  top: 160px;
+}
+
+header, #main-menu {
+  left: 0px;
+  padding-left: 30px;;
+  margin: 0;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  width: 100%;
+}
+
+header {
+  height: 160px;
+  top: -40px;
+  left: 14px;
+}
+
+#main-menu {
+  top: 116px;
+}
+
+footer {
+  position: relative;
+}
+
+button {
+  outline-style: none !important;
+  outline-width: 0px;
+}
+
+.item-row {
+  position: relative;
+  margin: 2px;
+  /*padding: 3px;*/
+  padding-left: 3px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  width: 920px;
+  min-height: 35px;
+  background-color: rgb(78, 26, 6);
+}
+
+.btn-circle {
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  padding: 0px 0;
+  font-size: 1.3em;
+  line-height: 1;
+  border-radius: 11px;
+}
+
+.add-item-btn{
+  position: absolute;;
+  left: -22px;
+  bottom: -10px;
+  width: 18px;
+  height: 18px;
+  font-size: 1.05em;
+}
+
+.item-cube-chk {
+  font-size: 1.31em;
+}
+
+.delete-item-btn {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.chosen-container-single .chosen-single  {
+  height: 29px;
+  margin: 3px;
+  border-radius: 0px;
+  line-height: 28px;
+}
+
+.chosen-container-multi {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.item-name {
+  width: 220px;
+}
+
+.item-stats {
+  width: 386px;
+}
+
+.item-stat-options {
+  width: 50px;
+}
+
+.item-comment {
+  font-weight: bold;
+  padding: 0 6px;
+  /*margin: 4px;*/
+  margin-right: 8px;
+  border-width: 1px;
+  width: 18px;
+  height: 29px;
+}
+
+.item-comment:focus, .comment-entry {
+  position: absolute;
+  width: 880px;
+  top: 3px;
+  right: 0;
+  left: 34px;
+}
+
+.item-row strong {
+  white-space: nowrap;
+  margin: 2px;
+  margin-left: 8px;
+  color: lightgrey;
+}
+
+#load-list-btn {
+  display: none;
+}
+
+
+/*# sourceMappingURL=app.css.map*/

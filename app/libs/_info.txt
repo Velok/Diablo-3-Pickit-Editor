@@ -1,0 +1,2 @@
+Put here plugins, libraries, frameworks etc.
+This is a static folder and won't be processed.

@@ -1,0 +1,2 @@
+Files with the extension .es6 will be compiled
+to js with the babel-brunch plugin.
